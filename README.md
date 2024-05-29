@@ -1,183 +1,249 @@
 # Tipi App Store ⛺️
 
-This is the official repository for the Tipi App Store. It contains all the apps that are available for download on [Tipi](https://github.com/meienberger/runtipi).
-
-## Apps available
-
-- [2FAuth](https://github.com/Bubka/2FAuth) - A Web app to manage your Two-Factor Authentication (2FA) accounts and generate their security codes
-- [Activepieces](https://github.com/activepieces/activepieces) - A true zapier alternative.
-- [Actual Budget](https://github.com/actualbudget/actual-server) - Local-first OpenSource Budget tool
-- [Adguard Home](https://github.com/AdguardTeam/AdGuardHome) - Adguard Home DNS adblocker
-- [Audiobookshelf](https://github.com/advplyr/audiobookshelf) - Audiobookshelf is a self-hosted audiobook and podcast server.
-- [autobrr](https://github.com/autobrr/autobrr) - Automation for downloads.
-- [Baïkal](https://github.com/ckulka/baikal-docker) - A Calendar+Contacts server
-- [Barrage](https://github.com/maulik9898/barrage) - Minimal Deluge WebUI with full mobile support
-- [Bazarr](https://github.com/morpheus65535/bazarr) - A companion application to Sonarr and Radarr that manages and downloads subtitles
-- [Booksonic](https://github.com/popeen) - A server for streaming your audiobooks
-- [Budibase](https://github.com/Budibase/budibase) - Low code platform for creating internal tools, workflows, and admin panels in minutes. Supports PostgreSQL, MySQL, MSSQL, MongoDB, Rest API, Docker, K8s, and more 🚀. Budibase, the low code platform you'll enjoy using ⚡
-- [Bookstack](https://github.com/BookStackApp/BookStack) - Simple, easy-to-use platform for organising and storing information.
-- [Calibre-Web](https://github.com/janeczku/calibre-web) - Web Ebook Reader
-- [ChangeDetection.io](https://github.com/dgtlmoon/changedetection.io) - The best and simplest free open source website change detection, restock monitor and notification service.
-- [Chatpad AI](https://github.com/deiucanta/chatpad) - Not just another ChatGPT user-interface!
-- [Code-Server](https://github.com/coder/code-server) - Web VS Code
-- [Codex.Docs](https://github.com/codex-team/codex.docst) - Free Docs app powered by Editor.js ecosystem.
-- [Conduit](https://gitlab.com/famedly/conduit) - Conduit is a simple, fast and reliable chat server written in Rust
-- [Cross-seed](https://github.com/cross-seed/cross-seed) - Fully-automatic, no false positives.
-- [DailyTXT](https://github.com/PhiTux/DailyTxT) - Encrypted Diary Web-App
-- [Dash.](https://github.com/MauriceNino/dashdot) - A simple, modern server dashboard, primarily used by smaller private server
-- [Dashy](https://github.com/lissy93/dashy) - A self-hostable personal dashboard built for you.
-- [Databag](https://github.com/balzack/databag) - A tiny federated messenger web with clients for iOS, Android, and browser.
-- [Deluge](https://github.com/linuxserver/docker-deluge) - Deluge is a lightweight, Free Software, cross-platform BitTorrent client
-- [Dockge](https://github.com/louislam/dockge) - A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager.
-- [Deemix](https://gitlab.com/Bockiii/deemix-docker) - deemix is a barebone deezer downloader library built from the ashes of Deezloader Remix.
-- [DokuWiki](https://github.com/dokuwiki/dokuwiki) - DokuWiki is a simple to use and highly versatile Open Source wiki software
-- [Dozzle](https://github.com/amir20/dozzle) - Dozzle is a small web based app to monitor Docker logs
-- [Draw.io](https://github.com/jgraph/drawio) - draw.io is a JavaScript, client-side editor for general diagramming and whiteboarding.
-- [Duplicati](https://github.com/linuxserver/docker-duplicati) - Store securely encrypted backups in the cloud!
-- [Email OAuth 2.0 Proxy](https://github.com/simonrob/email-oauth2-proxy) - Transparently add OAuth 2.0 support to IMAP/POP/SMTP client applications, scripts or any other email use-cases that don't support this authentication method.
-- [Emulatorjs](https://github.com/EmulatorJS/EmulatorJS) - Self-hosted Javascript emulation for various system.
-- [Excalidraw](https://github.com/excalidraw/excalidraw) - Online whiteboard collaboration made easy
-- [Filebrowser](https://github.com/filebrowser/filebrowser) - Web File Browser
-- [Filestash](https://github.com/mickael-kerjean/filestash) - A modern web client for SFTP, S3, FTP, WebDAV, Git, Minio, LDAP, CalDAV, CardDAV, Mysql, Backblaze
-- [Firefly III](https://github.com/firefly-iii/firefly-iii) - A personal finances manager
-- [Fireshare](https://github.com/ShaneIsrael/fireshare) - Self host your media and share with unique links
-- [Flaresolverr](https://github.com/FlareSolverr/FlareSolverr) - FlareSolverr is a proxy server to bypass Cloudflare and DDoS-GUARD protection.
-- [Flatnotes](https://github.com/Dullage/flatnotes) - A self-hosted, database-less note taking web app
-- [Freshrss](https://github.com/FreshRSS/FreshRSS) - A free, self-hostable RSS aggregator
-- [gandi-livedns](https://github.com/jbbodart/gandi-livedns) - Update your Gandi DNS zone records with your WAN IP
-- [Ghost](https://github.com/TryGhost/Ghost) - Ghost - Turn your audience into a business
-- [Ghostfolio](https://github.com/ghostfolio/ghostfolio) - Open Source Wealth Management Software.
-- [Gitea](https://github.com/go-gitea/gitea) - Gitea - A painless self-hosted Git service
-- [Gladys Assistant](https://github.com/gladysassistant/gladys) - A privacy-first, open-source home assistant
-- [Glances](https://github.com/nicolargo/glances) - Glances - An Eye on your system.
-- [Gotify](https://github.com/gotify/server) - Gotify - Simple server for sending and receiving notification messages
-- [GoToSocial](https://github.com/superseriousbusiness/gotosocial) - Fast, fun, ActivityPub server, powered by Go.
-- [Grafana](https://github.com/grafana/grafana) - The open and composable observability and data visualization platform
-- [Grav](https://github.com/getgrav/grav) - Fast, Simple, and Flexible, file-based Web-platform.
-- [Grocy](https://github.com/grocy/grocy) - Grocy - ERP beyond your fridge
-- [Hammond](https://github.com/akhilrex/hammond) - Self hosted vehicle and expense management system.
-- [Haven](https://github.com/havenweb/haven) - Haven is a self-hosted private blog and feedreader you can use instead of Facebook
-- [Headscale](https://github.com/juanfont/headscale) - An open source, self-hosted implementation of the Tailscale control server
-- [HedgeDoc](https://github.com/hedgedoc/hedgedoc) - A Collaborative Markdown and Note Taking App
-- [Homarr](https://github.com/ajnart/homarr) - A homepage for your server
-- [Home Assistant](https://github.com/home-assistant/core) - Open source home automation that puts local control and privacy first
-- [HomeBox](https://github.com/hay-kot/homebox) - Homebox is the inventory and organization system built for the Home User
-- [Halo](https://github.com/halo-dev/halo) - Halo is a powerful and easy-to-use open source website building tool.
-- [Homepage](https://github.com/gethomepage/homepage) - A modern, fully static, fast, secure fully proxied, highly customizable application dashboard with integrations for over 100 services and translations into multiple languages.
-- [Immich](https://github.com/immich-app/immich) - Photo and video backup solution directly from your mobile phone
-- [IT-Tools](https://github.com/CorentinTh/it-tools) - Collection of handy online tools for developers, with great UX.
-- [Invidious](https://github.com/iv-org/invidious) - An alternative front-end to YouTube
-- [Jackett](https://github.com/Jackett/Jackett) - API Support for your favorite torrent trackers
-- [Jellyfin](https://github.com/jellyfin/jellyfin) - A media server for your home collection
-- [Jellyfin Vue (Beta)](https://github.com/jellyfin/jellyfin-vue) - A modern web client for Jellyfin based on Vue
-- [Jellyseerr](https://github.com/Fallenbagel/jellyseerr) - Fork of overseerr for Jellyfin support
-- [Joplin](https://github.com/laurent22/joplin) - Privacy focused note-taking app
-- [Kanboard](https://github.com/kanboard/kanboard) - Kanboard is a free and open source Kanban project management software.
-- [Kapowarr](https://github.com/Casvt/Kapowarr) - Kapowarr is a software to build and manage a comic book library, fitting in the \*arr suite of software.
-- [Kasm Workspaces](https://github.com/kasmtech) - Kasm Workspaces is a docker container streaming platform for delivering browser-based access to desktops, applications, and web services
-- [Kavita](https://github.com/Kareadita/Kavita) - Kavita is a fast, feature rich, cross platform reading server
-- [Kimai](https://github.com/kimai/kimai) - Open source time-tracker
-- [Libreddit](https://github.com/spikecodes/libreddit) - Private front-end for Reddit
-- [LibrePhotos](https://github.com/LibrePhotos/librephotos) - Complete photo management service
-- [LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) - Free and Open Source Machine Translation API. 100% self-hosted, offline capable and easy to setup
-- [Lidarr](https://github.com/Lidarr/Lidarr) - Looks and smells like Sonarr but made for music.
-- [Lidarr On Steroids](https://github.com/youegraillot/lidarr-on-steroids) - Lidarr with some muscles thanks to deemix
-- [LinkStack](https://github.com/LinkStackOrg/LinkStack) - The ultimate solution for creating a personalized & professional profile page.
-- [Lodestone Core](https://github.com/Lodestone-Team/lodestone_core) - Server hosting tool for Minecraft and other multiplayers
-- [Logto](https://github.com/logto-io/logto) - Logto is a cost-effective open-source alternative to Auth0.
-- [Mastodon](https://github.com/mastodon/mastodon) - Your self-hosted, globally interconnected microblogging community
-- [Mealie](https://github.com/hay-kot/mealie) - Self-hosted recipe manager and meal planner.
-- [Memos](https://github.com/usememos/memos) - Memo hub for knowledge management and collaboration.
-- [MeTube](https://github.com/alexta69/metube) - Web GUI for youtube-dl with playlist support. Allows you to download videos from YouTube and dozens of other sites.
-- [Minecraft server](https://github.com/itzg/docker-minecraft-server) - Run a minecraft server in one click
-- [Mind](https://github.com/Casvt/MIND) - A simple self hosted reminder platform that uses push to send notifications to your device.
-- [MinIO](https://github.com/minio/minio) - MinIO is a High Performance Object Storage released under GNU Affero General Public License v3.0
-- [Moneroblock](https://github.com/duggavo/MoneroBlock) - Decentralized and trustless Monero block explorer
-- [Monero Daemon](https://github.com/monero-project/monero/) - A network daemon for Monero: the secure, private, untraceable cryptocurrency
-- [Monero p2pool Daemon](https://github.com/SChernykh/p2pool) - Decentralized pool for Monero mining
-- [Monica](https://github.com/monicahq/monica) - A Personal Relationship Management tool to help you document your social life
-- [Mixpost](https://github.com/inovector/mixpost) - Self-hosted social media management. Schedule and organize your social content.
-- [Mixpost Pro](https://mixpost.app/pricing) - Self-hosted social media management. Schedule and organize your social content.
-- [MongoDB](https://github.com/mongodb/mongo)- MongoDB is an open-source NoSQL database
-- [Mongo Express](https://github.com/mongo-express/mongo-express) - A web-based MongoDB admin interface written with Node.js, Express, and Bootstrap3
-- [Movary](https://github.com/leepeuker/movary) - Track and rate your watched movies
-- [mStream](https://github.com/IrosTheBeggar/mStream) - The easiest music streaming server available
-- [Mylar3](https://github.com/mylar3/mylar3) - Mylar3 is an automated Comic Book downloader (cbr/cbz) for use with NZB and torrents written in python.
-- [n8n](https://github.com/n8n-io/n8n) - Workflow Automation Tool
-- [Navidrome](https://github.com/navidrome/navidrome) - A selfhosted music server
-- [Netboot.xyz](https://github.com/netbootxyz/netboot.xyz) - Your favorite operating systems in one place!
-- [Netdata](https://github.com/netdata/netdata) - Open-source, real-time, performance and health monitoring.
-- [Nextcloud](https://github.com/nextcloud/server) - A safe home for all your data
-- [Nginx](https://github.com/nginx/nginx) - A simple web server to test your tipi install
-- [Nitter](https://github.com/zedeus/nitter) - Alternative Twitter front-end
-- [NocoDB](https://github.com/nocodb/nocodb) - Open Source Airtable Alternative
-- [Node-RED](https://github.com/node-red/node-red) - Low-code programming for event-driven applications
-- [NoteMark](https://github.com/enchant97/note-mark/) - Note Mark is a lighting fast and minimal web-based Markdown notes app.
-- [Ntfy](https://github.com/binwiederhier/ntfy) - A Straightforward Notification service that operates over HTTP
-- [Obsidian LiveSync](https://github.com/vrtmrz/self-hosted-livesync-server) - LiveSync couchdb backend for Obsidian
-- [OneDev](https://code.onedev.io/onedev/server) - Self-hosted Git Server with Kanban and CI/CD
-- [Openbooks](https://github.com/evan-buss/openbooks) - Search and Download eBooks
-- [Overseerr](https://github.com/sct/overseerr) - Request management and media discovery tool for the Plex ecosystem
-- [Owncast](https://github.com/owncast/owncast) - Take control over your live stream video by running it yourself. Streaming + chat out of the box.
-- [Owncloud](https://github.com/owncloud/core) - A personal cloud which runs on your own server.
-- [PairDrop](https://github.com/schlagmichdoch/PairDrop) - Local file sharing in your browser. Inspired by Apple's AirDrop.
-- [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) - Document Management System (DMS)
-- [Penpot](https://github.com/penpot/penpot) - The Open-Source design & prototyping platform.
-- [Peppermint](https://github.com/Peppermint-Lab/peppermint) - An open source ticket management & help desk solution.
-- [Photoprism](https://github.com/photoprism/photoprism) - AI-Powered Photos App for the Decentralized Web. We are on a mission to protect your freedom and privacy.
-- [Pihole](https://github.com/pi-hole/pi-hole) - A black hole for Internet advertisements
-- [Planka](https://github.com/plankanban/planka) - Free open source kanban board for workgroups.
-- [Plausible](https://github.com/plausible/analytics) - Simple, open-source, lightweight (< 1 KB) and privacy-friendly web analytics alternative to Google Analytics.
-- [Plex](https://github.com/plexinc/pms-docker) - Stream Movies & TV Shows
-- [PodFetch](https://github.com/SamTV12345/PodFetch) - A sleek and efficient podcast downloader.
-- [Portainer](https://github.com/portainer/portainer) - Making Docker and Kubernetes management easy.
-- [PrivateBin](https://github.com/PrivateBin/PrivateBin) - A minimalist, open source online pastebin where the server has zero knowledge of pasted data
-- [Prowlarr](https://github.com/Prowlarr/Prowlarr/) - A torrent/usenet indexer manager/proxy
-- [Proxitok](https://github.com/pablouser1/ProxiTok) - Open source alternative frontend for TikTok made using PHP
-- [qBittorrent](https://github.com/qbittorrent/qBittorrent) - BitTorrent client
-- [Radarr](https://github.com/Radarr/Radarr) - Movie collection manager for Usenet and BitTorrent users
-- [Rallly](https://github.com/lukevella/rallly) - Rallly is an open-source scheduling and collaboration tool designed to make organizing events and meetings easier
-- [Readarr](https://github.com/Readarr/Readarr) - Book Manager and Automation (Sonarr for Ebooks)
-- [Resilio Sync](https://github.com/bt-sync) - Fast, reliable, and simple file sync and share solution
-- [RSS](https://github.com/ssddanbrown/rss) - A simple, opinionated, RSS feed aggregator
-- [Ryot](https://github.com/IgnisDa/ryot) - Roll your own tracker!
-- [Sabnzbd](https://github.com/sabnzbd/sabnzbd) - Sabnzbd makes Usenet as simple and streamlined as possible by automating everything we can"
-- [SearXNG](https://github.com/searxng/searxng) - SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled
-- [Send](https://gitlab.com/timvisee/send) - Simple, private file sharing
-- [Serge](https://github.com/serge-chat/serge) - A web interface for chatting with Alpaca through llama.cpp.
-- [Shlink](https://shlink.io/) - API first URL shortener
-- [SimpleX SMP](https://github.com/simplex-chat/simplexmq) - A reference implementation of the SimpleX Messaging Protocol for simplex queues over public networks.
-- [Sonarr](https://github.com/Sonarr/Sonarr) - TV show manager for Usenet and BitTorrent
-- [Speedtest Tracker](https://github.com/alexjustesen/speedtest-tracker) - Internet performance tracking application.
-- [Sshwifty](https://github.com/nirui/sshwifty/) - Web SSH & Telnet (WebSSH & WebTelnet client)
-- [Stirling-PDF](https://github.com/Frooodle/Stirling-PDF) - Locally hosted web application that allows you to perform various operations on PDF files.
-- [Syncthing](https://github.com/syncthing/syncthing) - Continuous File Synchronization
-- [Tailscale](https://github.com/tailscale/tailscale) - The easiest, most secure way to use WireGuard and 2FA
-- [Tandoor](https://github.com/TandoorRecipes/recipes) - Drop your collection of links and notes. Get Tandoor and never look back onto a time without recipe management, storage, sharing and collaborative cooking!
-- [Tasks.md](https://github.com/BaldissaraMatheus/Tasks.md) - A self-hosted, file based task management board that supports Markdown syntax
-- [Tautulli](https://github.com/Tautulli/Tautulli) - A Python based monitoring and tracking tool for Plex Media Server
-- [Teddit](https://codeberg.org/teddit/teddit) - Alternative Reddit front-end focused on privacy https://teddit.net
-- [Transmission](https://github.com/transmission/transmission) - Fast, easy, and free BitTorrent client
-- [Trilium](https://github.com/zadam/trilium) - An open-source, self-hosted Notion alterative
-- [Tube Archivist](https://github.com/tubearchivist/tubearchivist) - Your self-hosted YouTube media server
-- [Umami](https://github.com/umami-software/umami) - Umami is a simple, fast, privacy-focused alternative to Google Analytics.
-- [Unmanic](https://github.com/Unmanic/unmanic) - Unmanic gives you the power to automate the management of any file library.
-- [Uptime Kuma](https://github.com/louislam/uptime-kuma) - A fancy self-hosted monitoring tool
-- [Vaultwarden](https://github.com/dani-garcia/vaultwarden) - Unofficial Bitwarden compatible server
-- [Vikunja](https://kolaente.dev/vikunja/) - The open-source, self-hostable to-do app. Organize everything, on all platforms.
-- [Whisparr](https://github.com/Whisparr/Whisparr) - Whisparr is an adult movie collection manager for Usenet and BitTorrent users.
-- [Wireguard Easy](https://github.com/WeeJeWel/wg-easy) - WireGuard VPN + Web-based Admin UI
-- [WikiJS](https://github.com/requarks/wiki) - A modern and powerful wiki app built on Node.js
-- [Wizarr](https://github.com/Wizarrrr/wizarr) - Wizarr is an advanced user invitation and management system for Jellyfin, Plex, Emby etc.
-- [WordPress](https://github.com/WordPress/WordPress) - WordPress is a popular content management system for creating websites and blogs.
-- [Your Spotify](https://github.com/Yooooomi/your_spotify) - Self hosted Spotify tracking dashboard
-- [ZeroTier](https://github.com/zerotier/ZeroTierOne) - Easy to use zero configuration VPN.
-- [Zipline](https://github.com/diced/zipline) - A ShareX/file upload server that is easy to use, packed with features, and with an easy setup!
+This is the official repository for the Tipi App Store. It contains all the apps that are available for download on [Tipi](https://github.com/runtipi/runtipi).
 
 ## How to sumbit an app
 
 If you want to see new apps on Tipi you can either:
 
-- [Open an issue](https://github.com/meienberger/runtipi-appstore/issues) on this repository and members of the community will add it
+- [Create a discussion](https://github.com/runtipi/runtipi-appstore/discussions) on this repository and members of the community will add it
 - [Join the Discord](https://discord.gg/Bu9qEPnHsc) members of the community will add it.
-- Fork this repo and create the necessary files for a Tipi app. Follow this [guide](<[https://github.com/meienberger/runtipi/wiki/Adding-your-own-app](https://www.runtipi.io/docs/contributing/adding-a-new-app)>)
+- Fork this repo and create the necessary files for a Tipi app. Follow this [guide](https://www.runtipi.io/docs/contributing/adding-a-new-app)`
+
+## Apps available (233)
+
+| Name                                                                         | Description                                                                                                                                                         | Port  |
+| ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- |
+| [2FAuth](https://github.com/Bubka/2FAuth)                                    | Manage your Two-Factor Authentication codes.                                                                                                                        | 8235  |
+| [Activepieces](https://github.com/activepieces/activepieces)                 | True zapier alternative.                                                                                                                                            | 8605  |
+| [Actual Budget](https://github.com/actualbudget/actual-server)               | Local-first OpenSource Budget tool                                                                                                                                  | 8011  |
+| [Adguard](https://github.com/AdguardTeam)                                    | World's most advanced adblocker!                                                                                                                                    | 8104  |
+| [AFFiNE](https://github.com/toeverything/affine)                             | AFFiNE is a workspace with fully merged docs, whiteboards and databases.                                                                                            | 3010  |
+| [Anse](https://github.com/anse-app/anse)                                     | Fully optimized UI for AI Chats.                                                                                                                                    | 8014  |
+| [ArchiveBox](https://github.com/ArchiveBox/ArchiveBox)                       | Open source self-hosted web archiving.                                                                                                                              | 8015  |
+| [Atuin Server](https://github.com/atuinsh/atuin)                             | Magical Shell History                                                                                                                                               | 8888  |
+| [Audiobookshelf](https://github.com/advplyr/audiobookshelf)                  | Audiobookshelf is a self-hosted audiobook and podcast server.                                                                                                       | 13378 |
+| [Authentik](https://github.com/goauthentik/authentik)                        | The authentication glue you need.                                                                                                                                   | 8770  |
+| [autobrr](https://github.com/autobrr/autobrr)                                | Automation for downloads.                                                                                                                                           | 8158  |
+| [Baïkal](https://github.com/ckulka/baikal-docker)                            | Baïkal is a Calendar+Contacts server                                                                                                                                | 6556  |
+| [Barrage](https://github.com/maulik9898/barrage)                             | Minimal Deluge WebUI with full mobile support                                                                                                                       | 8145  |
+| [Bazarr](https://github.com/morpheus65535/bazarr)                            | A companion application to Sonarr and Radarr that manages and downloads subtitles                                                                                   | 6767  |
+| [Bitcoin](https://github.com/lncm/docker-bitcoind)                           | Bitcoin core node                                                                                                                                                   | 8333  |
+| [Bitmagnet](https://github.com/bitmagnet-io/bitmagnet)                       | A self-hosted BitTorrent indexer.                                                                                                                                   | 3335  |
+| [Booksonic](https://github.com/popeen/Booksonic-Air)                         | The selfhosted audiobook server                                                                                                                                     | 8040  |
+| [Bookstack](https://github.com/BookStackApp/BookStack)                       | BookStack is a self-hosted platform for organising and storing information.                                                                                         | 8119  |
+| [Budibase](https://github.com/Budibase/budibase)                             | Internal tools made easy.                                                                                                                                           | 8268  |
+| [Cal.com](https://github.com/calcom/cal.com)                                 | Scheduling infrastructure for absolutely everyone.                                                                                                                  | 8294  |
+| [Calibre-Web - EBook Reader](https://github.com/janeczku/calibre-web)        | Calibre-web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.                               | 8100  |
+| [ChangeDetection](https://github.com/dgtlmoon/changedetection.io)            | Website change detection.                                                                                                                                           | 8257  |
+| [ChatGPT UI](https://github.com/WongSaang/chatgpt-ui)                        | A ChatGPT web client that supports multiple users, multiple languages, and multiple database connections for persistent data storage                                | 8200  |
+| [Chatpad AI](https://github.com/deiucanta/chatpad)                           | Not just another ChatGPT user-interface!                                                                                                                            | 8179  |
+| [Cheshire Cat AI](https://github.com/cheshire-cat-ai/core)                   | A production-ready AI framework to develop AI agents.                                                                                                               | 1865  |
+| [Cloudflare DDNS](https://github.com/joshuaavalon/docker-cloudflare)         | Update DNS records on Cloudflare.                                                                                                                                   | 22222 |
+| [Cloudflared](https://github.com/WisdomSky/Cloudflared-web)                  | Cloudflare Tunnels in a Web UI                                                                                                                                      | 14333 |
+| [Code Server](https://github.com/coder/code-server)                          | VS Code in the browser                                                                                                                                              | 8138  |
+| [CodeX.docs](https://github.com/codex-team/codex.docs)                       | Free Docs app powered by Editor.js ecosystem.                                                                                                                       | 8101  |
+| [Crafty](https://gitlab.com/crafty-controller/crafty-4)                      | Python based Control Panel for your Minecraft Server                                                                                                                | 8456  |
+| [Cross-Seed](https://github.com/cross-seed/cross-seed)                       | Fully-automatic cross-seeding with Torznab.                                                                                                                         | 2468  |
+| [Crowdsec](https://github.com/crowdsecurity/crowdsec)                        | Participative security solution offering crowdsourced protection against malicious IPs and access to the most advanced real-world CTI.                              | 8679  |
+| [CTFd](https://github.com/CTFd/CTFd)                                         | Cyber Security Training made simple.                                                                                                                                | 8546  |
+| [DailyTxT](https://github.com/PhiTux/DailyTxT)                               | Encrypted Diary Web-App                                                                                                                                             | 8156  |
+| [Dash.](https://github.com/MauriceNino/dashdot)                              | A simple, modern server dashboard, primarily used by smaller private server                                                                                         | 8173  |
+| [Dashy](https://github.com/lissy93/dashy)                                    | A self-hostable personal dashboard built for you.                                                                                                                   | 8205  |
+| [Databag](https://github.com/balzack/databag)                                | Messenger for the Decentralized Web                                                                                                                                 | 8201  |
+| [Deemix](https://gitlab.com/Bockiii/deemix-docker)                           | deemix is a barebone deezer downloader library built from the ashes of Deezloader Remix.                                                                            | 6595  |
+| [Deluge](https://github.com/linuxserver/docker-deluge)                       | Deluge is a lightweight, Free Software, cross-platform BitTorrent client.                                                                                           | 8144  |
+| [Dockge](https://github.com/louislam/dockge)                                 | Docker compose.yaml stack-oriented manager.                                                                                                                         | 8768  |
+| [DokuWiki](https://github.com/dokuwiki/dokuwiki)                             | DokuWiki is a simple to use and highly versatile Open Source wiki software                                                                                          | 8149  |
+| [Dozzle](https://github.com/amir20/dozzle)                                   | Dozzle is a small web based app to monitor Docker logs                                                                                                              | 8013  |
+| [Draw.io](https://github.com/jgraph/drawio)                                  | Diagramming and whiteboarding app.                                                                                                                                  | 8734  |
+| [Duck DNS](https://github.com/linuxserver/docker-duckdns)                    | Duck DNS is a free Dynamic DNS service                                                                                                                              | 8026  |
+| [Duplicati](https://github.com/linuxserver/docker-duplicati)                 | Store securely encrypted backups in the cloud!                                                                                                                      | 8159  |
+| [Eclipse Mosquitto](https://github.com/eclipse/mosquitto/)                   | open source message broker                                                                                                                                          | 8288  |
+| [Email OAuth2 Proxy](https://github.com/simonrob/email-oauth2-proxy)         | OAuth Proxy for IMAP/POP/SMTP.                                                                                                                                      | 1999  |
+| [Emulatorjs](https://github.com/EmulatorJS/EmulatorJS)                       | Self-hosted Javascript emulation for various system.                                                                                                                | 8164  |
+| [Excalidraw](https://github.com/excalidraw/excalidraw)                       | Online whiteboard collaboration made easy                                                                                                                           | 8172  |
+| [File Browser](https://github.com/filebrowser/filebrowser)                   | Access your homeserver files from your browser                                                                                                                      | 8096  |
+| [Filestash](https://github.com/mickael-kerjean/filestash)                    | A modern web client for SFTP, S3, FTP, WebDAV, Git, Minio, LDAP, CalDAV, CardDAV, Mysql, Backblaze                                                                  | 8189  |
+| [Firefly III](https://github.com/firefly-iii/firefly-iii)                    | Firefly III: a personal finances manager                                                                                                                            | 8115  |
+| [Firefly III Data Importer](https://github.com/firefly-iii/data-importer)    | The Firefly III Data Importer can import data into Firefly III                                                                                                      | 8150  |
+| [Fireshare](https://github.com/ShaneIsrael/fireshare)                        | Self host your media and share with unique links                                                                                                                    | 8140  |
+| [Flaresolverr](https://github.com/FlareSolverr/FlareSolverr)                 | Bypass Cloudflare and DDoS-GuARD.                                                                                                                                   | 8666  |
+| [flatnotes](https://github.com/Dullage/flatnotes)                            | A self-hosted, database-less note taking web app                                                                                                                    | 8137  |
+| [Flightlog](https://github.com/perdian/flightlog/)                           | Flightlog, a web application that keeps track of your personal flight history                                                                                       | 8934  |
+| [Flowise AI](https://github.com/FlowiseAI/Flowise)                           | Build LLM Apps Easily                                                                                                                                               | 8009  |
+| [Forgejo](https://codeberg.org/forgejo/forgejo/)                             | Beyond coding. We forge. · Lightweight and performant · Guaranteed 100% Free Software                                                                               | 8195  |
+| [FreshRSS](https://github.com/FreshRSS/FreshRSS)                             | A free, self-hostable aggregator…                                                                                                                                   | 8086  |
+| [gandi-livedns](https://github.com/jbbodart/gandi-livedns)                   | Update your Gandi DNS zone records with your WAN IP                                                                                                                 | 8134  |
+| [Get A Shell](https://github.com/steveiliop56/getashell)                     | SSH shells from a Web UI                                                                                                                                            | 8281  |
+| [Ghost](https://github.com/TryGhost/Ghost)                                   | Ghost - Turn your audience into a business.                                                                                                                         | 8117  |
+| [Ghostfolio](https://github.com/ghostfolio/ghostfolio)                       | Open Source Wealth Management Software.                                                                                                                             | 3333  |
+| [Gitea](https://github.com/go-gitea/gitea)                                   | Gitea - Git with a cup of tea · A painless self-hosted Git service. · Cross-platform · Easy to install · Lightweight · Open Source.                                 | 8108  |
+| [Gladys Assistant](https://github.com/gladysassistant/gladys)                | A privacy-first, open-source home assistant                                                                                                                         | 8270  |
+| [Glance](https://github.com/glanceapp/glance)                                | Super configurable dashboard                                                                                                                                        | 8568  |
+| [Glances](https://github.com/nicolargo/glances)                              | An eye on your system                                                                                                                                               | 8420  |
+| [Gotify](https://github.com/gotify/server)                                   | Gotify, a simple server for sending and receiving notification messages.                                                                                            | 8129  |
+| [GoToSocial](https://github.com/superseriousbusiness/gotosocial)             | Fast, fun, ActivityPub server, powered by Go.                                                                                                                       | 8188  |
+| [Grafana](https://github.com/grafana/grafana)                                | The open and composable observability and data visualization platform                                                                                               | 8160  |
+| [Grav](https://github.com/getgrav/grav)                                      | Grav is a Fast, Simple, and Flexible, file-based Web-platform.                                                                                                      | 8161  |
+| [Grist](https://github.com/gristlabs/grist-core)                             | Grist is the evolution of spreadsheets.                                                                                                                             | 8484  |
+| [Grocy](https://github.com/grocy/grocy)                                      | ERP beyond your fridge                                                                                                                                              | 8136  |
+| [Halo](https://github.com/halo-dev/halo)                                     | Halo - Open source website building tool.                                                                                                                           | 8092  |
+| [Hammond](https://github.com/alfhou/hammond)                                 | Self hosted vehicle and expense management system. Like Clarkson, but better                                                                                        | 8185  |
+| [Haven](https://github.com/havenweb/haven)                                   | Self-hostable private blogging                                                                                                                                      | 8130  |
+| [HedgeDoc](https://github.com/hedgedoc/hedgedoc)                             | A Collaborative Markdown and Note Taking App                                                                                                                        | 8142  |
+| [Heimdall](https://github.com/linuxserver/Heimdall)                          | Application Dashboard                                                                                                                                               | 8783  |
+| [Hello World](https://github.com/crccheck/docker-hello-world)                | Hello World web server in under 2 MB                                                                                                                                | 8000  |
+| [Homarr](https://github.com/ajnart/homarr)                                   | Homarr is a simple and lightweight homepage for your server, that helps you easily access all of your services in one place.                                        | 8102  |
+| [Home Assistant](https://github.com/home-assistant/core)                     | Open source home automation that puts local control and privacy first                                                                                               | 8209  |
+| [HomeBox](https://github.com/hay-kot/homebox)                                | Homebox is the inventory and organization system built for the Home User                                                                                            | 7745  |
+| [Home Bridge](https://github.com/homebridge/homebridge)                      | HomeKit support for the impatient.                                                                                                                                  | 8581  |
+| [Homepage](https://github.com/gethomepage/homepage)                          | A highly customizable homepage                                                                                                                                      | 8756  |
+| [Immich](https://github.com/immich-app/immich)                               | Photo and video backup solution directly from your mobile phone.                                                                                                    | 8128  |
+| [Invidious](https://github.com/iv-org/invidious)                             | An alternative front-end to YouTube                                                                                                                                 | 8095  |
+| [Invoice Ninja](https://github.com/invoiceninja/invoiceninja)                | Invoices, Expenses and Tasks built with Laravel, Flutter and React.                                                                                                 | 8881  |
+| [IT-Tools](https://github.com/CorentinTh/it-tools)                           | Collection of handy online tools for developers, with great UX.                                                                                                     | 8171  |
+| [Jackett](https://github.com/Jackett/Jackett)                                | API Support for your favorite torrent trackers                                                                                                                      | 8097  |
+| [Jellyfin](https://github.com/jellyfin/jellyfin)                             | A media server for your home collection                                                                                                                             | 8091  |
+| [Jellyfin Vue (Beta)](https://github.com/jellyfin/jellyfin-vue)              | A modern web client for Jellyfin based on Vue                                                                                                                       | 8202  |
+| [Jellyseerr](https://github.com/Fallenbagel/jellyseerr)                      | Fork of overseerr for Jellyfin support                                                                                                                              | 8163  |
+| [Joplin Server](https://github.com/laurent22/joplin)                         | Note taking and to-do application with synchronisation                                                                                                              | 8099  |
+| [Kanboard](https://github.com/kanboard/kanboard)                             | Open Source Kanban Board                                                                                                                                            | 8010  |
+| [Kapowarr](https://github.com/Casvt/Kapowarr)                                | Kapowarr is a software to build and manage a comic book library, fitting in the \*arr suite of software.                                                            | 8194  |
+| [Kasm Workspaces](https://github.com/kasmtech)                               | Container streaming platform.                                                                                                                                       | 8744  |
+| [Kavita](https://github.com/Kareadita/Kavita)                                | Kavita is a fast, feature rich, cross platform reading server                                                                                                       | 8175  |
+| [Kimai](https://github.com/kimai/kimai)                                      | Open source time-tracker                                                                                                                                            | 8003  |
+| [Kiwix Server](https://github.com/kiwix/kiwix-tools/)                        | Kiwix Server is a web server for hosting .zim files                                                                                                                 | 8169  |
+| [Koillection](https://github.com/benjaminjonard/koillection)                 | Koillection allow you to manage any kind of collections.                                                                                                            | 8050  |
+| [Komga](https://github.com/gotson/komga)                                     | A media server for your comics, mangas, BDs, magazines and eBooks.                                                                                                  | 2560  |
+| [LibReddit](https://github.com/spikecodes/libreddit)                         | Browse reddit without problems!                                                                                                                                     | 8105  |
+| [LibrePhotos](https://github.com/LibrePhotos/librephotos)                    | Complete photo management service                                                                                                                                   | 8132  |
+| [LibreTranslate](https://github.com/LibreTranslate/LibreTranslate)           | Free and Open Source Machine Translation API. 100% self-hosted, offline capable and easy to setup.                                                                  | 8121  |
+| [Lidarr](https://github.com/Lidarr/Lidarr)                                   | Looks and smells like Sonarr but made for music.                                                                                                                    | 8131  |
+| [Lidarr on Steroids](https://github.com/youegraillot/lidarr-on-steroids)     | Lidarr with some muscles thanks to deemix                                                                                                                           | 8186  |
+| [LinkStack](https://github.com/LinkStackOrg/linkstack-docker)                | LinkStack is a highly customizable link sharing platform with an intuitive, easy to use user interface                                                              | 8154  |
+| [Linkwarden](https://github.com/linkwarden/linkwarden)                       | A self-hosted, open-source collaborative bookmark manager                                                                                                           | 8199  |
+| [Lobe Chat](https://github.com/lobehub/lobe-chat)                            | LLM chatbot framework                                                                                                                                               | 3210  |
+| [Lodestone Core](https://github.com/Lodestone-Team/lodestone_core)           | Server hosting tool for Minecraft and other multiplayers                                                                                                            | 16662 |
+| [Logto](https://github.com/logto-io/logto)                                   | Logto is a cost-effective open-source alternative to Auth0.                                                                                                         | 8203  |
+| [Maintainerr](https://github.com/jorenn92/Maintainerr)                       | Maintainerr will manage the storage space on your plex server, launching automated actions to delete your files.                                                    | 8030  |
+| [Mastodon](https://github.com/mastodon/mastodon)                             | Your self-hosted, globally interconnected microblogging community                                                                                                   | 8210  |
+| [Conduit](https://gitlab.com/famedly/conduit)                                | Conduit is a simple, fast and reliable chat server written in Rust                                                                                                  | 6167  |
+| [Mealie](https://github.com/hay-kot/mealie)                                  | Mealie is a self-hosted recipe manager and meal planner.                                                                                                            | 8220  |
+| [Memos](https://github.com/usememos/memos)                                   | Memo hub for knowledge management and collaboration.                                                                                                                | 5230  |
+| [MeTube](https://github.com/alexta69/metube)                                 | youtube-dl web UI                                                                                                                                                   | 8250  |
+| [Mind](https://github.com/Casvt/MIND)                                        | A simple self hosted reminder platform that uses push to send notifications to your device.                                                                         | 8143  |
+| [Minecraft Server](https://github.com/itzg/docker-minecraft-server)          | Run a minecraft server                                                                                                                                              | 25565 |
+| [Minio](https://github.com/minio/minio)                                      | High Performance Object Storage                                                                                                                                     | 8001  |
+| [Mixpost](https://github.com/inovector/mixpost)                              | Self-hosted social media management. Schedule and organize your social content.                                                                                     | 8167  |
+| [Mixpost Pro](https://github.com/inovector/mixpost)                          | Self-hosted social media management. Schedule and organize your social content.                                                                                     | 8191  |
+| [Moneroblock](https://github.com/duggavo/MoneroBlock)                        | Decentralized and trustless Monero block explorer                                                                                                                   | 31312 |
+| [Monero Daemon](https://github.com/sethforprivacy/simple-monerod-docker)     | Monero is a private, decentralized cryptocurrency that keeps your finances confidential and secure.                                                                 | 18080 |
+| [MongoDB](https://github.com/mongodb/mongo)                                  | MongoDB is an open-source NoSQL database                                                                                                                            | 27017 |
+| [Mongo Express](https://github.com/mongo-express/mongo-express)              | Web-based MongoDB admin interface, written with Node.js and Express                                                                                                 | 8087  |
+| [Monica](https://github.com/monicahq/monica)                                 | A Personal Relationship Management tool to help you document your social life.                                                                                      | 3291  |
+| [Moodist](https://github.com/remvze/moodist)                                 | Ambient sounds for focus and calm.                                                                                                                                  | 8221  |
+| [Movary](https://github.com/leepeuker/movary)                                | Movary is a self-hosted web application to track and rate your watched movies.                                                                                      | 8155  |
+| [mStream Music](https://github.com/IrosTheBeggar/mStream)                    | The easiest music streaming server available                                                                                                                        | 8162  |
+| [Mylar3](https://github.com/mylar3/mylar3)                                   | Mylar3 is an automated Comic Book downloader (cbr/cbz) for use with NZB and torrents written in python.                                                             | 8174  |
+| [n8n](https://github.com/n8n-io/n8n)                                         | Workflow Automation Tool. Alternative to Zapier                                                                                                                     | 8215  |
+| [Navidrome](https://github.com/navidrome/navidrome/)                         | A selfhosted music server                                                                                                                                           | 4533  |
+| [Netboot.xyz](https://github.com/netbootxyz/netboot.xyz)                     | Your favorite operating systems in one place.                                                                                                                       | 8675  |
+| [Netdata](https://github.com/netdata/netdata)                                | Open-source, real-time, performance and health monitoring.                                                                                                          | 19999 |
+| [Nextcloud](https://github.com/nextcloud/server)                             | Productivity platform that keeps you in control                                                                                                                     | 8083  |
+| [NextGBA](https://github.com/meienberger/nextgba)                            | Gameboy in your browser                                                                                                                                             | 8435  |
+| [Nginx](https://github.com/nginx/nginx)                                      | Open-source simple and fast web server.                                                                                                                             | 8754  |
+| [Nitter](https://github.com/zedeus/nitter)                                   | Twitter without annoyances!                                                                                                                                         | 8106  |
+| [NocoDB](https://github.com/nocodb/nocodb)                                   | Open Source Airtable Alternative                                                                                                                                    | 8146  |
+| [Node-RED](https://github.com/node-red/node-red)                             | Low-code programming for event-driven applications                                                                                                                  | 8111  |
+| [Notemark](https://github.com/enchant97/note-mark/)                          | Lighting fast web-based Markdown notes app.                                                                                                                         | 8567  |
+| [Ntfy](https://github.com/binwiederhier/ntfy)                                | Ntfy, a simple server for sending and receiving notification messages.                                                                                              | 8166  |
+| [Obsidian LiveSync](https://github.com/vrtmrz/self-hosted-livesync-server)   | LiveSync couchdb backend for Obsidian                                                                                                                               | 5984  |
+| [Octobot](https://github.com/Drakkar-Software/OctoBot)                       | Octobot is a powerful open-source cryptocurrency trading robot.                                                                                                     | 8825  |
+| [Odoo](https://github.com/odoo/odoo)                                         | Open-source business management software with modular applications for streamlined operations.                                                                      | 8017  |
+| [Ollama - AMD](https://github.com/ollama/ollama)                             | LLMs inference server with OpenAI compatible API                                                                                                                    | 11434 |
+| [Ollama - CPU](https://github.com/ollama/ollama)                             | LLMs inference server with OpenAI compatible API                                                                                                                    | 11436 |
+| [Ollama - Nvidia](https://github.com/ollama/ollama)                          | LLMs inference server with OpenAI compatible API                                                                                                                    | 11435 |
+| [OneDev](https://code.onedev.io/onedev/server)                               | Self-hosted Git Server with Kanban and CI/CD                                                                                                                        | 6610  |
+| [Open WebUI](https://github.com/open-webui/open-webui)                       | User-friendly WebUI for LLMs                                                                                                                                        | 8536  |
+| [openbooks](https://github.com/evan-buss/openbooks)                          | Search and Download eBooks                                                                                                                                          | 8152  |
+| [Outline](https://github.com/outline/outline)                                | A home for all your docs                                                                                                                                            | 8404  |
+| [Overseerr](https://github.com/sct/overseerr)                                | Request management and media discovery tool for the Plex ecosystem                                                                                                  | 8116  |
+| [Owncast](https://github.com/owncast/owncast)                                | Take control over your live stream video by running it yourself. Streaming + chat out of the box.                                                                   | 8198  |
+| [Owncloud](https://github.com/owncloud/core)                                 | A personal cloud which runs on your own server.                                                                                                                     | 8151  |
+| [PairDrop](https://github.com/schlagmichdoch/PairDrop)                       | Local file sharing in your browser. Inspired by Apple's AirDrop                                                                                                     | 8182  |
+| [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)              | Document Management System (DMS)                                                                                                                                    | 8012  |
+| [Penpot](https://github.com/penpot/penpot)                                   | Open-Source design & prototyping platform.                                                                                                                          | 8645  |
+| [Peppermint](https://github.com/Peppermint-Lab/peppermint)                   | An open source ticket management & help desk solution.                                                                                                              | 8216  |
+| [PhotoPrism](https://github.com/photoprism/photoprism)                       | AI-Powered Photos App for the Decentralized Web. We are on a mission to protect your freedom and privacy.                                                           | 8110  |
+| [Pi-hole](https://github.com/pi-hole/pi-hole)                                | A black hole for Internet advertisements                                                                                                                            | 8081  |
+| [Pinchflat](https://github.com/kieraneglin/pinchflat)                        | Your next YouTube media manager                                                                                                                                     | 8945  |
+| [Planka](https://github.com/plankanban/planka)                               | Free open source kanban board for workgroups.                                                                                                                       | 8016  |
+| [Planning Poker](https://github.com/axeleroy/self-host-planning-poker)       | Online planning poker for scrum master.                                                                                                                             | 8880  |
+| [Plausible](https://github.com/plausible/analytics)                          | Simple, open-source, lightweight (< 1 KB) and privacy-friendly web analytics alternative to Google Analytics.                                                       | 8190  |
+| [Plex](https://github.com/plexinc/pms-docker)                                | Stream Movies & TV Shows                                                                                                                                            | 32400 |
+| [PodFetch](https://github.com/SamTV12345/PodFetch)                           | A sleek and efficient podcast downloader.                                                                                                                           | 8177  |
+| [Portainer](https://github.com/portainer/portainer)                          | Making Docker and Kubernetes management easy.                                                                                                                       | 9443  |
+| [Postfix Mail Relay](https://github.com/shamil/docker-postfix-relay)         | Simple SMTP relay for environments where you may have private servers with no Internet connection.                                                                  | 2525  |
+| [PrivateBin](https://github.com/PrivateBin/PrivateBin)                       | A minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256 bits AES.        | 8122  |
+| [Prowlarr](https://github.com/Prowlarr/Prowlarr/)                            | A torrent/usenet indexer manager/proxy                                                                                                                              | 8109  |
+| [ProxiTok](https://github.com/pablouser1/ProxiTok)                           | Open source alternative frontend for TikTok made using PHP                                                                                                          | 8118  |
+| [qBittorrent](https://github.com/qbittorrent/qBittorrent)                    | Fast, easy, and free BitTorrent client                                                                                                                              | 8133  |
+| [qDirStat](https://github.com/linuxserver/docker-qdirstat)                   | A graphical disk usage analyzer                                                                                                                                     | 7125  |
+| [Radarr](https://github.com/Radarr/Radarr)                                   | Movie collection manager for Usenet and BitTorrent users.                                                                                                           | 8088  |
+| [Rallly](https://github.com/lukevella/rallly)                                | Scheduling and collaboration tool                                                                                                                                   | 8208  |
+| [Readarr](https://github.com/Readarr/Readarr)                                | Book Manager and Automation (Sonarr for Ebooks)                                                                                                                     | 8112  |
+| [Recyclarr](https://github.com/recyclarr/recyclarr)                          | Sync TRaSH Guides.                                                                                                                                                  | 1111  |
+| [Resilio](https://github.com/bt-sync)                                        | Resilio Sync is a fast, reliable, and simple file sync and share solution, powered by P2P technology                                                                | 8113  |
+| [Revolt Chat](https://github.com/revoltchat)                                 | Open source user-first chat platform.                                                                                                                               | 8272  |
+| [RomM](https://github.com/zurdi15/romm)                                      | RomM (Rom Manager) is a web based retro roms manager integrated with IGDB.                                                                                          | 8178  |
+| [RSS](https://github.com/ssddanbrown/rss)                                    | A simple, opinionated, RSS feed aggregator.                                                                                                                         | 8141  |
+| [RSSHub](https://github.com/DIYgod/RSSHub)                                   | Everything is RSSible with RSSHub                                                                                                                                   | 8223  |
+| [Ryot](https://github.com/IgnisDa/ryot)                                      | Roll your own tracker!                                                                                                                                              | 8206  |
+| [SABnzbd](https://github.com/sabnzbd/sabnzbd)                                | Sabnzbd makes Usenet as simple and streamlined as possible by automating everything we can                                                                          | 8168  |
+| [Scrypted](https://github.com/koush/scrypted)                                | High performance home video integration and automation platform                                                                                                     | 10443 |
+| [SearXNG](https://github.com/searxng/searxng)                                | Privacy-respecting, hackable metasearch engine                                                                                                                      | 8127  |
+| [SeedSync](https://github.com/ipsingh06/seedsync)                            | SeedSync is a tool to sync the files on a remote Linux server.                                                                                                      | 8800  |
+| [Send](https://gitlab.com/timvisee/send)                                     | Simple, private file sharing. https://send.vis.ee/                                                                                                                  | 8126  |
+| [Serge](https://github.com/serge-chat/serge)                                 | LLaMA made easy                                                                                                                                                     | 8008  |
+| [SFTPGo](https://github.com/drakkan/sftpgo)                                  | Fully featured and highly configurable SFTP server                                                                                                                  | 8002  |
+| [Shlink](https://github.com/shlinkio/shlink)                                 | Shlink is a self-hosted URL shortener                                                                                                                               | 8207  |
+| [Silverbullet](https://github.com/silverbulletmd/silverbullet)               | SilverBullet is a creative space where you collect, create and expand your personal knowledge, while also letting you constantly evolve the tools you use to do so. | 8214  |
+| [SimpleX SMP](https://github.com/simplex-chat/simplexmq)                     | A reference implementation of the SimpleX Messaging Protocol for simplex queues over public networks.                                                               | 5223  |
+| [SLSKD](https://github.com/slskd/slskd)                                      | P2P downloads                                                                                                                                                       | 5030  |
+| [Sonarr](https://github.com/Sonarr/Sonarr)                                   | TV show manager for Usenet and BitTorrent                                                                                                                           | 8098  |
+| [Speedtest Tracker](https://github.com/alexjustesen/speedtest-tracker)       | Internet performance tracking application.                                                                                                                          | 8211  |
+| [Spoolman](https://github.com/Donkie/Spoolman)                               | Keep track of your inventory of 3D-printer filament spools                                                                                                          | 7912  |
+| [Sshwifty](https://github.com/nirui/sshwifty)                                | Web SSH & Telnet (WebSSH & WebTelnet client)                                                                                                                        | 8274  |
+| [Stalwart Mail](https://github.com/stalwartlabs)                             | Open-source mail server solution with JMAP, IMAP4, and SMTP support                                                                                                 | 8677  |
+| [Stirling-PDF](https://github.com/Frooodle/Stirling-PDF/)                    | Powerful locally hosted web based PDF manipulation tool.                                                                                                            | 8234  |
+| [Syncthing](https://github.com/syncthing)                                    | Peer-to-peer file synchronization between your devices                                                                                                              | 8090  |
+| [Tailscale](https://github.com/tailscale/tailscale)                          | The easiest, most secure way to use WireGuard and 2FA.                                                                                                              | 8093  |
+| [Tandoor](https://github.com/TandoorRecipes/recipes)                         | Recipe collection manager.                                                                                                                                          | 8341  |
+| [Tasks.md](https://github.com/BaldissaraMatheus/Tasks.md)                    | A self-hosted, file based task management board.                                                                                                                    | 8157  |
+| [Tautulli](https://github.com/Tautulli/Tautulli)                             | Monitoring and tracking tool for Plex Media Server.                                                                                                                 | 8181  |
+| [Tooljet](https://github.com/ToolJet/ToolJet)                                | Alternative to retool to construct CRM dashboard                                                                                                                    | 9876  |
+| [Traefik Certs Dumper](https://github.com/kereis/traefik-certs-dumper)       | Dumps Let's Encrypt certificates of a specified domain which Traefik stores in acme.json.                                                                           | 9999  |
+| [Transmission](https://github.com/transmission/transmission)                 | Fast, easy, and free BitTorrent client                                                                                                                              | 8089  |
+| [Transmission (VPN)](https://github.com/haugene/docker-transmission-openvpn) | BitTorrent client with VPN support.                                                                                                                                 | 9091  |
+| [Trilium](https://github.com/zadam/trilium)                                  | An open-source, self-hosted Notion alterative                                                                                                                       | 8267  |
+| [Tube Archivist](https://github.com/tubearchivist/tubearchivist)             | Your self-hosted YouTube media server                                                                                                                               | 8120  |
+| [Umami](https://github.com/umami-software/umami)                             | Umami is a simple, fast, privacy-focused alternative to Google Analytics.                                                                                           | 8147  |
+| [Unmanic](https://github.com/Unmanic/unmanic)                                | Unmanic - Library Optimiser.                                                                                                                                        | 8256  |
+| [Uptime Kuma](https://github.com/louislam/uptime-kuma)                       | A fancy self-hosted monitoring tool.                                                                                                                                | 8125  |
+| [VaultWarden](https://github.com/dani-garcia/vaultwarden)                    | All your passwords in your control!                                                                                                                                 | 8107  |
+| [ViewTube](https://github.com/ViewTube/viewtube)                             | The open source, privacy-conscious way to enjoy your favorite YouTube content.                                                                                      | 8180  |
+| [Vikunja](https://kolaente.dev/vikunja)                                      | The Todo-app to organize your life.                                                                                                                                 | 8135  |
+| [Wallos](https://github.com/ellite/Wallos)                                   | Open-Source Personal Subscription Tracker                                                                                                                           | 8222  |
+| [Wekan](https://github.com/wekan/wekan)                                      | Open-Source, customizable, and privacy-focused kanban                                                                                                               | 8678  |
+| [Wireguard](https://github.com/WeeJeWel/wg-easy/)                            | VPN server for your homeserver                                                                                                                                      | 8082  |
+| [Whisparr](https://github.com/Whisparr/Whisparr)                             | Adult movie collection manager.                                                                                                                                     | 6969  |
+| [Whoogle Search](https://github.com/benbusby/whoogle-search)                 | A self-hosted, ad-free, privacy-respecting metasearch engine.                                                                                                       | 8255  |
+| [WikiJS](https://github.com/requarks/wiki)                                   | A modern and powerful wiki app built on Node.js                                                                                                                     | 8148  |
+| [Windows](https://github.com/dockur/windows/)                                | Full windows vm in your browser                                                                                                                                     | 8006  |
+| [Wizarr](https://github.com/Wizarrrr/wizarr)                                 | Wizarr is an automatic user invitation system for Plex and Jellyfin.                                                                                                | 5690  |
+| [WordPress](https://github.com/WordPress/WordPress)                          | Popular CMS for websites and blogs                                                                                                                                  | 8213  |
+| [Your Spotify](https://github.com/Yooooomi/your_spotify)                     | Self hosted Spotify tracking dashboard.                                                                                                                             | 8103  |
+| [ZeroTier](https://github.com/zerotier/ZeroTierOne)                          | Easy to use zero configuration VPN.                                                                                                                                 | 9993  |
+| [Zigbee2MQTT](https://github.com/Koenkk/zigbee2mqtt)                         | Zigbee to MQTT bridge                                                                                                                                               | 8290  |
+| [Zipline](https://github.com/diced/zipline)                                  | A ShareX/file upload server that is easy to use, packed with features, and with an easy setup!                                                                      | 8139  |

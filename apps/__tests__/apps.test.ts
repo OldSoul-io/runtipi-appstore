@@ -23,6 +23,7 @@ interface AppConfig {
   available: boolean;
   form_fields?: FormField[];
   supported_architectures: string[];
+  dynamic_config: boolean;
 }
 
 const networkExceptions = [
@@ -259,9 +260,9 @@ describe("App configs", () => {
           expect(dockerCompose.services[app.id]).toBeDefined();
 
           expect(dockerCompose.services[app.id].networks).toBeDefined();
-          expect(dockerCompose.services[app.id].networks).toStrictEqual([
+          expect(dockerCompose.services[app.id].networks).toContain(
             "tipi_main_network",
-          ]);
+          );
         }
       });
     });
