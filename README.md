@@ -10,7 +10,7 @@ If you want to see new apps on Tipi you can either:
 - [Join the Discord](https://discord.gg/Bu9qEPnHsc) members of the community will add it.
 - Fork this repo and create the necessary files for a Tipi app. Follow this [guide](https://www.runtipi.io/docs/contributing/adding-a-new-app)`
 
-## Apps available (233)
+## Apps available (234)
 
 | Name                                                                         | Description                                                                                                                                                         | Port  |
 | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- |
@@ -61,6 +61,7 @@ If you want to see new apps on Tipi you can either:
 | [Duplicati](https://github.com/linuxserver/docker-duplicati)                 | Store securely encrypted backups in the cloud!                                                                                                                      | 8159  |
 | [Eclipse Mosquitto](https://github.com/eclipse/mosquitto/)                   | open source message broker                                                                                                                                          | 8288  |
 | [Email OAuth2 Proxy](https://github.com/simonrob/email-oauth2-proxy)         | OAuth Proxy for IMAP/POP/SMTP.                                                                                                                                      | 1999  |
+| [EMQX](https://github.com/emqx/emqx)                                         | The most scalable open-source MQTT broker for IoT, IIoT, connected vehicles, and more.                                                                              | 18083 |
 | [Emulatorjs](https://github.com/EmulatorJS/EmulatorJS)                       | Self-hosted Javascript emulation for various system.                                                                                                                | 8164  |
 | [Excalidraw](https://github.com/excalidraw/excalidraw)                       | Online whiteboard collaboration made easy                                                                                                                           | 8172  |
 | [File Browser](https://github.com/filebrowser/filebrowser)                   | Access your homeserver files from your browser                                                                                                                      | 8096  |
