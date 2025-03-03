@@ -1,0 +1,75 @@
+---
+services:
+  technitium-dns:
+    container_name: technitium-dns
+    hostname: dns
+    image: technitium/dns-server:latest
+    network_mode: "${TECHNITIUM_ENABLE_DHCP:-false}" == "true" ? "host" : "bridge"
+    ports:
+      - "${TECHNITIUM_WEB_PORT:-5380}:5380/tcp" # DNS web console (HTTP)
+      - "${TECHNITIUM_WEB_HTTPS_PORT:-53443}:53443/tcp" # DNS web console (HTTPS)
+      - "${TECHNITIUM_DNS_PORT_UDP:-53}:53/udp" # DNS service (UDP)
+      - "${TECHNITIUM_DNS_PORT_TCP:-53}:53/tcp" # DNS service (TCP)
+      - "${TECHNITIUM_DOT_PORT:-853}:853/tcp" # DNS-over-TLS service
+      - "${TECHNITIUM_DOH_PORT:-8443}:8443/tcp" # DNS-over-HTTPS service
+      - "${TECHNITIUM_DOH_ALT_PORT:-8080}:8080/tcp" # DNS-over-HTTP service
+      - "${TECHNITIUM_DHCP_PORT:-67}:67/udp" # DHCP service (only if DHCP is enabled)
+    volumes:
+      - /opt/runtipi/app-data/technitium-dns/data/config:/etc/dns
+    environment:
+      - DNS_SERVER_DOMAIN=dns-server
+      - DNS_SERVER_ADMIN_USER=${TECHNITIUM_ADMIN_USER:-admin}
+      - DNS_SERVER_ADMIN_PASSWORD=${TECHNITIUM_ADMIN_PASSWORD:-password}
+      - DNS_SERVER_WEB_SERVICE_HTTP_PORT=${TECHNITIUM_WEB_PORT:-5380}
+      - DNS_SERVER_WEB_SERVICE_HTTPS_PORT=${TECHNITIUM_WEB_HTTPS_PORT:-53443}
+      - DNS_SERVER_WEB_SERVICE_ENABLE_HTTPS=true
+      - DNS_SERVER_WEB_SERVICE_USE_SELF_SIGNED_CERT=true
+      - DNS_SERVER_WEB_SERVICE_LOCAL_ADDRESSES=0.0.0.0
+      - DNS_SERVER_PREFER_IPV6=false
+      - DNS_SERVER_RECURSION=AllowOnlyForPrivateNetworks
+      - DNS_SERVER_DOH_PORT=${TECHNITIUM_DOH_PORT:-8443}
+      - DNS_SERVER_DOH_ALT_PORT=${TECHNITIUM_DOH_ALT_PORT:-8080}
+      - DNS_SERVER_DOT_PORT=${TECHNITIUM_DOT_PORT:-853}
+      - DNS_SERVER_DNS_PORT_UDP=${TECHNITIUM_DNS_PORT_UDP:-53}
+      - DNS_SERVER_DNS_PORT_TCP=${TECHNITIUM_DNS_PORT_TCP:-53}
+      - DNS_SERVER_DHCP_PORT=${TECHNITIUM_DHCP_PORT:-67}
+    restart: unless-stopped
+    
+    networks:
+      - tipi_main_network
+
+    labels:
+      # Enable Traefik and set the service port
+      traefik.enable: true
+      traefik.http.services.technitium-dns.loadbalancer.server.port: ${TECHNITIUM_WEB_HTTPS_PORT:-53443}
+      
+      # Middleware for HTTPS redirection
+      # traefik.http.middlewares.technitium-dns-https-redirect.redirectscheme.scheme: https
+      
+      # Insecure HTTP route
+      traefik.http.routers.technitium-dns-insecure.rule: Host(`${APP_DOMAIN}`)
+      traefik.http.routers.technitium-dns-insecure.entrypoints: web
+      traefik.http.routers.technitium-dns-insecure.service: technitium-dns
+      # traefik.http.routers.technitium-dns-insecure.middlewares: technitium-dns-https-redirect
+      
+      # Secure HTTPS route
+      traefik.http.routers.technitium-dns.rule: Host(`${APP_DOMAIN}`)
+      traefik.http.routers.technitium-dns.entrypoints: websecure
+      traefik.http.routers.technitium-dns.service: technitium-dns
+      traefik.http.routers.technitium-dns.tls.certresolver: myresolver
+      
+      # Local domain HTTP
+      traefik.http.routers.technitium-dns-local-insecure.rule: Host(`technitium-dns.${LOCAL_DOMAIN}`)
+      traefik.http.routers.technitium-dns-local-insecure.entrypoints: web
+      traefik.http.routers.technitium-dns-local-insecure.service: technitium-dns
+      # traefik.http.routers.technitium-dns-local-insecure.middlewares: technitium-dns-https-redirect
+      
+      # Local domain HTTPS
+      traefik.http.routers.technitium-dns-local.rule: Host(`technitium-dns.${LOCAL_DOMAIN}`)
+      traefik.http.routers.technitium-dns-local.entrypoints: websecure
+      traefik.http.routers.technitium-dns-local.service: technitium-dns
+      traefik.http.routers.technitium-dns-local.tls: true
+
+networks:
+  tipi_main_network:
+    external: true
