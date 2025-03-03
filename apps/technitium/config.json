@@ -5,7 +5,7 @@
   "short_desc": "Technitium DNS is an open source authoritative and recursive DNS server.",
   "author": "TechnitiumSoftware",
   "port": 5380,
-  "categories": ["network", "security"],
+  "categories": ["network"],
   "description": "An open source authoritative and recursive DNS server that can be used for self hosting a DNS server, offering DNS-over-TLS, DNS-over-HTTPS, or DNS-over-QUIC forwarders for privacy & security. It works out-of-the-box with no or minimal configuration and provides a user friendly web console accessible using any modern web browser.",
   "tipi_version": 1,
   "version": "v13.4.3",
@@ -43,60 +43,18 @@
       "hint": "Disabled by default. If enabled, ensure no other DHCP server is active on the same network/subnet."
     },
     {
-      "type": "number",
+      "type": "port",
       "label": "Web Console Port (HTTP)",
       "required": false,
       "default": 5380,
       "env_variable": "TECHNITIUM_WEB_PORT"
     },
     {
-      "type": "number",
+      "type": "port",
       "label": "Web Console Port (HTTPS)",
       "required": false,
       "default": 53443,
       "env_variable": "TECHNITIUM_WEB_HTTPS_PORT"
-    },
-    {
-      "type": "number",
-      "label": "DNS Service Port (UDP)",
-      "required": false,
-      "default": 53,
-      "env_variable": "TECHNITIUM_DNS_PORT_UDP"
-    },
-    {
-      "type": "number",
-      "label": "DNS Service Port (TCP)",
-      "required": false,
-      "default": 53,
-      "env_variable": "TECHNITIUM_DNS_PORT_TCP"
-    },
-    {
-      "type": "number",
-      "label": "DNS-over-TLS Port",
-      "required": false,
-      "default": 853,
-      "env_variable": "TECHNITIUM_DOT_PORT"
-    },
-    {
-      "type": "number",
-      "label": "DNS-over-HTTPS Port",
-      "required": false,
-      "default": 8443,
-      "env_variable": "TECHNITIUM_DOH_PORT"
-    },
-    {
-      "type": "number",
-      "label": "DNS-over-HTTP Port",
-      "required": false,
-      "default": 8080,
-      "env_variable": "TECHNITIUM_DOH_ALT_PORT"
-    },
-    {
-      "type": "number",
-      "label": "DHCP Service Port (UDP)",
-      "required": false,
-      "default": 67,
-      "env_variable": "TECHNITIUM_DHCP_PORT"
     }
   ]
 }
