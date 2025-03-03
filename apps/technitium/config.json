@@ -5,7 +5,7 @@
   "short_desc": "Technitium DNS is an open source authoritative and recursive DNS server.",
   "author": "TechnitiumSoftware",
   "port": 5380,
-  "categories": ["utilities", "network"],
+  "categories": ["network", "security"],
   "description": "An open source authoritative and recursive DNS server that can be used for self hosting a DNS server, offering DNS-over-TLS, DNS-over-HTTPS, or DNS-over-QUIC forwarders for privacy & security. It works out-of-the-box with no or minimal configuration and provides a user friendly web console accessible using any modern web browser.",
   "tipi_version": 1,
   "version": "v13.4.3",
@@ -13,8 +13,8 @@
   "website": "https://technitium.com/",
   "exposable": true,
   "supported_architectures": ["arm64", "amd64"],
-  "created_at": 1740752912069,
-  "updated_at": 1740752912069,
+  "created_at": 1741035500611,
+  "updated_at": 1741035500611,
   "form_fields": [
     {
       "type": "text",
