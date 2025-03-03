@@ -24,7 +24,7 @@
       "required": true,
       "env_variable": "TECHNITIUM_ADMIN_USER",
       "hint": "For enhanced security, do not use variations of 'admin' or 'administrator' as your username."
-    }
+    },
     {
       "type": "password",
       "label": "Admin Password",
@@ -33,7 +33,7 @@
       "max": 50,
       "env_variable": "TECHNITIUM_ADMIN_PASSWORD",
       "hint": "Set a secure password for the Technitium DNS web console."
-    }
+    },
     {
       "type": "boolean",
       "label": "Enable DHCP Server",
